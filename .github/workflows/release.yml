@@ -20,7 +20,9 @@ jobs:
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           mkdir -p dist
-          ditto -c -k --keepParent "build/EPUB Quickviewer.app" \
+          # --norsrc/--noextattr/--noqtn: no AppleDouble (._*) xattr sidecars
+          ditto -c -k --norsrc --noextattr --noqtn --keepParent \
+            "build/EPUB Quickviewer.app" \
             "dist/EPUB-Quickviewer-${VERSION}-arm64.zip"
 
       - name: Extract release notes from CHANGELOG.md
