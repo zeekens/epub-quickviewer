@@ -1,0 +1,15 @@
+# Build products
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Test output
+*.html
+sample.epub
