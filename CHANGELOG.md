@@ -4,6 +4,12 @@ All notable changes to epub-quickviewer are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com); versions
 correspond to git tags (`v0.2` ↔ `[0.2]`).
 
+## [0.3] - 2026-07-12
+
+### Changed
+- README screenshot and performance table now use the synthetic sample book
+  rather than a copyrighted title.
+
 ## [0.2] - 2026-07-12
 
 First public release.
