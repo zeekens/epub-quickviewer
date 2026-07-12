@@ -89,5 +89,5 @@ Measured on an M2 Mac mini (cold, `-O` build):
 | Book | Words | Render |
 | --- | --- | --- |
 | Synthetic 3-chapter sample | 4.7k | 19 ms |
-| New Spring | 123k | ~270 ms |
-| A Memory of Light | 355k | ~850 ms |
+| Typical novel | 123k | ~270 ms |
+| Very long epic novel | 355k | ~850 ms |
