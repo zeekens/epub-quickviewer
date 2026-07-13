@@ -6,5 +6,13 @@
 	<true/>
 	<key>com.apple.security.files.user-selected.read-only</key>
 	<true/>
+	<!-- Required by WKWebView: without it the sandbox kills the WebContent
+	     process on load and the window renders blank. The app makes no network
+	     requests (book HTML is sanitized, remote images dropped, resources
+	     inlined as data: URIs, and non-about: navigations are cancelled).
+	     The Quick Look extension does not need this: it hands HTML to
+	     Quick Look, which renders it in its own web view. -->
+	<key>com.apple.security.network.client</key>
+	<true/>
 </dict>
 </plist>
