@@ -23,6 +23,8 @@
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>EPUB Quickviewer</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.zeekens.epubquickviewer</string>
 	<key>CFBundleInfoDictionaryVersion</key>

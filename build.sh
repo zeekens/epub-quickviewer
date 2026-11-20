@@ -33,6 +33,7 @@ echo "==> Compiling Quick Look extension"
 
 echo "==> Assembling bundles"
 cp Resources/App-Info.plist "$APP/Contents/Info.plist"
+cp Resources/AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
 cp Resources/Appex-Info.plist "$APPEX/Contents/Info.plist"
 printf 'APPL????' > "$APP/Contents/PkgInfo"
 
