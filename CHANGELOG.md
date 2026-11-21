@@ -4,7 +4,7 @@ All notable changes to epub-quickviewer are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com); versions
 correspond to git tags (`v0.2` ↔ `[0.2]`).
 
-## [Unreleased]
+## [0.5] - 2026-11-21
 
 ### Added
 - An app icon for Finder, the Dock, and other macOS app listings.
